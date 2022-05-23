@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Excel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="menu-options">
+      <div class="menu-options-1">
+        <div class="bold">
+          <i class="fas fa-bold"></i>
+        </div>
+        <div class="italic">
+          <i class="fas fa-italic"></i>
+        </div>
+        <div class="underline">
+          <i class="fas fa-underline"></i>
+        </div>
+      </div>
+      <div class="menu-options-2">
+        <div class="left">
+          <i class="fas fa-align-left"></i>
+        </div>
+        <div class="center">
+          <i class="fas fa-align-center"></i>
+        </div>
+        <div class="right">
+          <i class="fas fa-align-right"></i>
+        </div>
+      </div>
+      <div class="menu-options-3">
+        <div class="font-type">
+          <select name="fonttype" value="Calibri">
+            <option value="Calibri">Calibri</option>
+            <option value="Calibri Light">Calibri Light</option>
+            <option value="Algerian">Algerian</option>
+            <option value="Abadi Extra Light">Abadi Extra Light</option>
+            <option value="ArialArial Black">ArialArial Black</option>
+            <option value="Arial Narrow">Arial Narrow</option>
+            <option value="Brush Script MT">Brush Script MT</option>
+            <option value="Bahnschrift Light">Bahnschrift Light</option>
+            <option value="Bodoni MT Black">Bodoni MT Black</option>
+          </select>
+        </div>
+        <div class="font-size">
+          <select name="fontsize" value="11">
+            <option value="8">8</option>
+            <option value="11">11</option>
+            <option value="10">10</option>
+            <option value="12">12</option>
+            <option value="14">14</option>
+            <option value="16">16</option>
+            <option value="18">18</option>
+            <option value="20">20</option>
+            <option value="22">22</option>
+            <option value="24">24</option>
+            <option value="26">26</option>
+          </select>
+        </div>
+      </div>
+      <div class="menu-options-4">
+        <div class="font-color">
+          <i class="fas fa-palette"></i>
+          <input type="color" name="" id="" value="#000000">
+      </div>
+      <div class="cell-color">
+          <i class="fas fa-fill-drip"></i>
+          <input type="color" name="" id="" value="#FFFFFF">
+      </div>
+      </div>
+    </div>
+    <div class="formula-tab">
+      <input id="address" type="text" disabled placeholder="CN" />
+      <input id="formula" type="text" placeholder="Enter formula" />
+      <div class="copyright">MyExcel by Hardeep Nain</div>
+    </div>
+    <div class="cells">Cells</div>
+    <div class="sheets">
+      <div class="add-sheet"><i class="fas fa-plus"></i></div>
+      <div class="sheets-list">
+        <div class="sheet active-sheet" sid="0">Sheet 1</div>
+      </div>
+    </div>
+    <script src="./init.js"></script>
+    <script src="./script.js"></script>
+    <script src="./scriptFunctions.js"></script>
+    <script src="./sheets.js"></script>
+    <script src="./menu.js"></script>
+  </body>
+</html>
