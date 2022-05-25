@@ -1,4 +1,4 @@
-# MyExcel
+# MyExcel &nbsp; [live](https://myexcell.netlify.app)
 
 Its the minified version of MS Excel.
 It can help you manage your data on small scale.
@@ -6,14 +6,12 @@ Hope you will like it.
  
 
 
-## Demo
-
-**Youtube** : https://youtu.be/qkU3X2d_GvE
+## Demo &nbsp;<a href="https://youtu.be/qkU3X2d_GvE" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="hardeep nain" height="30" width="40" /></a>
 
 https://user-images.githubusercontent.com/88960105/170292282-320b42c1-ab65-47e8-8a50-e85eafde378b.mp4
 
 
-## Features
+## Features 📝
 
 - You can add texts in cells. 
 - You can apply formula on cells. 
@@ -28,7 +26,7 @@ https://user-images.githubusercontent.com/88960105/170292282-320b42c1-ab65-47e8-
 - On switching, you will your sheet same as you left.
 
 
-## Tech Stack
+## Tech Stack ⚒
 
 **HTML,CSS & JavaScript**
 
