@@ -1,4 +1,4 @@
-# MyExcel <a href="https://myexcell.netlify.app" target="_blank"><img align="center" src="../../../../../Readme/Icons/icons8-external-link-64.png" alt="live link" height="30" width="40" /></a>
+# MyExcel <a href="https://myexcell.netlify.app" target="_blank"><img align="center" src="./Img-Icons/icons8-external-link-64.png" alt="live link" height="30" width="40" /></a>
 
 Its the minified version of MS Excel.
 It can help you manage your data on small scale.
