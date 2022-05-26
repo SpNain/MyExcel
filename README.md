@@ -6,7 +6,7 @@ Hope you will like it.
  
 
 
-## Demo &nbsp;<a href="https://youtu.be/qkU3X2d_GvE" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="hardeep nain" height="30" width="40" /></a>
+## Demo &nbsp;<a href="https://youtu.be/qkU3X2d_GvE" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="hardeep nain" height="30" width="40" /></a>
 
 https://user-images.githubusercontent.com/88960105/170292282-320b42c1-ab65-47e8-8a50-e85eafde378b.mp4
 
