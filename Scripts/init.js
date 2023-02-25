@@ -12,14 +12,14 @@ function initCells() { // ye fxn cells create karta hai
     // logic for creating a-z cells 
     cellsContent += '<div class="top-row">'; // ek row ka div banaya
     for (let j = 0; j < 26; j++) {
-        cellsContent += `<div class="top-row-cell">${String.fromCharCode(65 + j)}</div>`; // uske andar chote chote 26 div bna diye
+        cellsContent += `<div class="top-row-cell" trid="${j}">${String.fromCharCode(65 + j)}</div>`; // uske andar chote chote 26 div bna diye
     } // String.fromCharCode() fxn -> convert a number code to char
     cellsContent += "</div>";
     
     // logic for creating left counting cells 
     cellsContent += '<div class="left-col">'; // ek bda div bnaya
     for (let j = 0; j < 100; j++) {
-        cellsContent += `<div class="left-col-cell">${j + 1}</div>`; // usme chote chote 100 div bna diye
+        cellsContent += `<div class="left-col-cell" lcid="${j}">${j + 1}</div>`; // usme chote chote 100 div bna diye
     }
     cellsContent += "</div>"; // left col div close
 
@@ -55,7 +55,11 @@ function initDB() {
                 parents: [],
                 visited: false,
                 fontStyles: { bold: false, italic: false, underline: false },
-                textAlign: "left"
+                textAlign: "left",
+                fontColor: "#000000",
+                backgroundColor: "#FFFFFF",
+                fontFamily: "Calibri",
+                fontSize: "11"
             };
             row.push(cellObject);
         }

@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Excel</title>
+    <title>MyExcel</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -46,17 +50,22 @@
       </div>
       <div class="menu-options-3">
         <div class="font-type">
-          <select name="fonttype" value="Comic Sans">
-            <option value="">A</option>
-            <option value="">B</option>
-            <option value="">C</option>
-            <option value="">D</option>
-            <option value="">E</option>
+          <select name="fonttype" value="Calibri">
+            <option value="Calibri">Calibri</option>
+            <option value="Calibri Light">Calibri Light</option>
+            <option value="Algerian">Algerian</option>
+            <option value="Abadi Extra Light">Abadi Extra Light</option>
+            <option value="ArialArial Black">ArialArial Black</option>
+            <option value="Arial Narrow">Arial Narrow</option>
+            <option value="Brush Script MT">Brush Script MT</option>
+            <option value="Bahnschrift Light">Bahnschrift Light</option>
+            <option value="Bodoni MT Black">Bodoni MT Black</option>
           </select>
         </div>
         <div class="font-size">
-          <select name="fontsize" value="16">
+          <select name="fontsize" value="11">
             <option value="8">8</option>
+            <option value="11">11</option>
             <option value="10">10</option>
             <option value="12">12</option>
             <option value="14">14</option>
@@ -70,17 +79,20 @@
         </div>
       </div>
       <div class="menu-options-4">
-        <div class="cell-color">
-          <input type="color" name="" id="">
-        </div>
         <div class="font-color">
-          <input type="color" name="" id="">
-        </div>
+          <i class="fas fa-palette"></i>
+          <input type="color" name="" id="" value="#000000">
+      </div>
+      <div class="cell-color">
+          <i class="fas fa-fill-drip"></i>
+          <input type="color" name="" id="" value="#FFFFFF">
+      </div>
       </div>
     </div>
     <div class="formula-tab">
-      <input id="address" type="text" disabled />
-      <input id="formula" type="text" />
+      <input id="address" type="text" disabled placeholder="CN" />
+      <input id="formula" type="text" placeholder="Enter formula" />
+      <div class="copyright">MyExcel by Hardeep Nain</div>
     </div>
     <div class="cells">Cells</div>
     <div class="sheets">
@@ -89,9 +101,10 @@
         <div class="sheet active-sheet" sid="0">Sheet 1</div>
       </div>
     </div>
-    <script src="./init.js"></script>
-    <script src="./script.js"></script>
-    <script src="./sheets.js"></script>
-    <script src="./menu.js"></script>
+    <script src="./Scripts/init.js"></script>
+    <script src="./Scripts/script.js"></script>
+    <script src="./Scripts/scriptFunctions.js"></script>
+    <script src="./Scripts/sheets.js"></script>
+    <script src="./Scripts/menu.js"></script>
   </body>
 </html>
