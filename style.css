@@ -1,10 +1,3 @@
-:root {
-    --border-color: #EFF0EF;
-    --cell-background: #F5F6F5;
-    --active-cell: #2ecc71;
-    --cell-selected: #E5E6E5;
-}
-
 * {
     box-sizing: border-box;
     padding: 0px;
@@ -40,8 +33,7 @@ body {
     border-radius: 5px;
 }
 
-.menu-options-1>div:hover,
-.menu-options-2>div:hover {
+.menu-options-1>div:hover , .menu-options-2>div:hover{
     background-color: lightgray;
 }
 
@@ -54,56 +46,22 @@ body {
     border-radius: 5px;
 }
 
+.menu-options-3>div {
+}
 
-.menu-options-3 select {
-    background: var(--cell-background);
-    outline: none;
-    border-radius: 5px;
-    height: 100%;
-}
 .menu-options-4>div {
-    cursor: pointer;
-    width: 30px;
-    display: flex;
-    align-items: center;
-    font-family: calibri light;
-    
-}
-.menu-options-4>div>i {
-    font-size: 15px;
 }
 
 .formula-tab {
     height: 30px;
-    background: #c3c4c3;
-    display: flex;
-}
-
-#address{
-    margin-right: 15px;
-    width: 50px;
-    text-align: center;
-    border: none;
-    border-radius: 0px 8px 8px 0px;
-    background: lightgray;
-}
-
-#formula{
-    margin: 3px;
-    border: none;
-    border-radius: 8px;
-    width: 200px;
-    outline: none;
-    padding-left: 5px;
-    background: var(--cell-background);
+    background: aquamarine;
 }
 
 .cells {
     /* background: bisque; */
-    height: calc(100vh - 110px); /*kyunki sirf cells hi vh pe dependent h to mimize-maximize krne pe sirf cells hi chhoti bdi hogi  */
+    height: calc(100vh - 110px);
     overflow: auto;
     position: relative;
-    /* isko position di taki saari cells iske acc set ho naki body ke acc*/
 }
 
 .sheets {
@@ -119,18 +77,16 @@ body {
 }
 
 .cell {
-    border-left: 1px solid var(--border-color);
-    border-bottom: 1px solid var(--border-color);
-    border: 1px solid rgba(0,0,0,0.07);
-    min-height: 20px;
-    min-width: 90px;
-    max-width: 70px;
+    border: 1px solid;
+    min-width: 70px;
+    min-height: 25px;
     outline: none;
+    max-width: 70px;
 }
 
 .top-left-cell {
-    height: 20px;
-    background: darkgray;
+    height: 25px;
+    background: lightgray;
     width: 30px;
     position: absolute;
     z-index: 3;
@@ -142,17 +98,14 @@ body {
     position: absolute;
     left: 30px;
     z-index: 2;
-    /* background: white; */
-    background: var(--cell-background);
+    background: white;
 }
 
 .top-row-cell {
-    min-width: 90px;
-    /* border: 1px solid; */
-    border-bottom: 1px solid var(--border-color);
-    border-left: 1px solid var(--border-color);
+    min-width: 70px;
+    border: 1px solid;
     /* text-align: center; */
-    min-height: 20px;
+    min-height: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,30 +113,27 @@ body {
 
 .left-col {
     position: absolute;
-    top: 20px;
+    top: 25px;
     z-index: 2;
     background: white;
-    background: var(--cell-background);
 }
 
 .left-col-cell {
-    /* border: 1px solid; */
+    border: 1px solid;
     width: 30px;
     text-align: center;
-    height: 20px;
-    border-bottom: 1px solid var(--border-color);
+    height: 25px;
 }
 
 .all-cells {
     position: absolute;
-    top: 20px;
+    top: 25px;
     left: 30px;
 }
 
 .add-sheet {
-    padding: 10px;
-    cursor: pointer;
-    color: var(--active-cell);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .sheets-list {
@@ -208,27 +158,6 @@ body {
     background: white;
 }
 
-.active-menu {
+.active-menu{
     background-color: lightgray;
-}
-
-
-.active-cell {
-    border: 1.7px solid var(--active-cell);
-    border-radius: 2px;
-}
-
-.cell-selected {
-    background: #E5E6E5;
-    /* background: black; */
-}
-
-/*-------- Copyright--------*/
-.copyright{
-    position: absolute;
-    top: 8%;
-    right: 40%;
-    font-style: italic;
-    font-size: 17px;
-    color: slategray;
 }
