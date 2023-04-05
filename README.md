@@ -1,6 +1,6 @@
 # MyExcel <a href="https://myexcell.netlify.app" target="_blank"><img align="center" src="./Img-Icons/icons8-external-link-64.png" alt="live link" height="30" width="40" /></a>
 
-MyExcel is a lite clone of Microsoft Excel, created with `HTML`, `CSS`, and `Javascript`.
+MyExcel is a lite clone of Microsoft Excel, created using `HTML`, `CSS`, and `Javascript`.
 
 ## Demo &nbsp;<a href="https://youtu.be/qkU3X2d_GvE" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="Youtube" height="30" width="40" /></a>
 
