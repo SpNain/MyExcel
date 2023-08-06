@@ -225,9 +225,9 @@ body {
 
 /*-------- Copyright--------*/
 .copyright{
-    position: absolute;
-    top: 8%;
-    right: 40%;
+    position: relative;
+    top: 14%;
+    right: -30%;
     font-style: italic;
     font-size: 17px;
     color: slategray;
