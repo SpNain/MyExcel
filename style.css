@@ -100,10 +100,9 @@ body {
 
 .cells {
     /* background: bisque; */
-    height: calc(100vh - 110px); /*kyunki sirf cells hi vh pe dependent h to mimize-maximize krne pe sirf cells hi chhoti bdi hogi  */
+    height: calc(100vh - 110px);
     overflow: auto;
     position: relative;
-    /* isko position di taki saari cells iske acc set ho naki body ke acc*/
 }
 
 .sheets {
@@ -223,7 +222,6 @@ body {
     /* background: black; */
 }
 
-/*-------- Copyright--------*/
 .copyright{
     position: relative;
     top: 14%;
